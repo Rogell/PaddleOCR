@@ -6,6 +6,7 @@ services:
     volumes:
       - .:/project
       - /mnt/data-8tb:/mnt/data-8tb
+    ipc: host
     deploy:
       resources:
         reservations:
