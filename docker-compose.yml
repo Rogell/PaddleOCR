@@ -5,6 +5,7 @@ services:
     build: .
     volumes:
       - .:/project
+      - /mnt/data-8tb:/mnt/data-8tb
     deploy:
       resources:
         reservations:
